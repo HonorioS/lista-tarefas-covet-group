@@ -1,0 +1,60 @@
+/*   ***************  style login  index   *************** */
+
+.container-login {
+    height: 120px !important;
+    width: auto !important;
+}
+
+.btn-login {
+    border: black thin solid !important;
+}
+
+.btn-login:hover {
+    color: black !important;
+    background: white !important;
+}
+
+
+/*   ***************  style admin index     *************** */
+
+.logout {
+    cursor: pointer;
+}
+
+.menu-gestao-user a:hover,
+.menu-tarefas a:hover,
+.menu-tarefa-concluida a:hover,
+.close-session:hover {
+    color: white !important;
+}
+
+
+/*   ***************  style gestao utilizador    *************** */
+
+.gestao-utilizador {
+    border: black thin solid !important;
+}
+
+.btn-add-user:hover,
+.btn-update-user:hover {
+    cursor: pointer;
+    background: white !important;
+    color: black !important;
+}
+
+.btn-open-box-add-user:hover {
+    color: white !important;
+}
+
+.box-delet-user {
+    position: absolute;
+    z-index: 99;
+    margin-left: 28% !important;
+    margin-top: 7% !important;
+}
+
+
+/*   ***************  style view form user    *************** */
+
+
+/*   ***************  style view form list tarefa    *************** */
